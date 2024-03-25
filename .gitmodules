@@ -1,3 +1,9 @@
 [submodule "API_6_Semestre_IA"]
 	path = API_6_Semestre_IA
 	url = https://github.com/peonia-api/API_6_Semestre_IA.git
+[submodule "API_6_Semestre_Vue"]
+	path = API_6_Semestre_Vue
+	url = https://github.com/peonia-api/API_6_Semestre_Vue.git
+[submodule "API_6_Semestre_Spring"]
+	path = API_6_Semestre_Spring
+	url = https://github.com/peonia-api/API_6_Semestre_Spring.git
