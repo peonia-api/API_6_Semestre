@@ -1,6 +1,7 @@
 <br id="topo">
 
-<h1 align="center"> EQUIPE PEÔNIA </br> API - 6º SEMESTRE ADS - 2024 </h1>
+<img src="Images/capa-nova.png">
+
 <p align="center">
     <a href="#objetivo">Objetivo</a> | 
     <a href="#requisitos">Requisitos</a> | 
