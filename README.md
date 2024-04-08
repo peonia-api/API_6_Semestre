@@ -3,10 +3,8 @@
 <img src="Images/capa-nova.png">
 
 <p align="center">
-    <a href="#objetivo">Objetivo</a> | 
-    <a href="#requisitos">Requisitos</a> | 
+    <a href="#objetivo">Objetivo</a> |  
     <a href="#relatório">Relatórios</a> | 
-    <a href="#documentacao">Documentação</a> |
     <a href="#projeto">Backlog</a> |
     <a href="#tecnologias">Tecnologias</a> | 
     <a href="#equipe">Equipe</a> 
@@ -26,25 +24,6 @@
   Diante desse contexto, o sistema deverá fornecer uma interface que possibilite ao usuário visualizar a quantidade pessoas em tempo real no local, bem como consultar a movimentação naquela região em determinado período de tempo a ser selecionado pelo usuário. Além disso, o sistema poderá monitorar diversas Red Zones em cada departamento, portanto, será necessário que o acesso seja restrito a cada guarda de cada departamento, de modo que apenas o gerente de segurança terá acesso aos dados de todos os locais.
 </p>
 
-<span id="requisitos">
-
-<h2> :bookmark_tabs: Requisitos Funcionais </h2>
-
-- [ ] Desenvolver uma interface web intuitiva, com autenticação;
-- [ ] Desenvolver um Dashboard de indicadores por períodos;
-- [ ] Filtros de período para análise dos dados;
-- [ ] Geração de relatórios para compartilhamento.
-
-<h2> 📋 Requisitos Não Funcionais </h2>
-
-- [ ] Manual do usuário;
-- [ ] Documentação do sistema;
-- [ ] Guia de instalação;
-- [ ] Acesso a organização do desenvolvimento (por exemplo, kanban, git etc.)
- 
-
- → [Voltar ao topo](#topo)
-
 <span id="relatório">
  
  ## :clipboard: Relatórios
@@ -60,21 +39,16 @@ Na tabela abaixo é possível visualizar os resultados de cada Sprint clicando e
 
 → [Voltar ao topo](#topo)
 
-<span id="documentacao">
-<h2> :clipboard: Documentação</h2>
-
-[Em breve]
-
-→ [Voltar ao topo](#topo)
-
-
 <span id="projeto">
     
- ## 📌 Backlog Priorizado
+ ## 📌 Backlogs & User Stories
  
-<div align="justify">
+<div align="center">
     <p> 
-      [Em breve]
+      <img src="Images/Backlog do Produto.png">
+      <img src="Images/Backlog das Sprints.png">
+      <img src="Images/User Stories 1.png">
+      <img src="Images/User Stories 2.png">
     </p>
 </div>
     
@@ -86,16 +60,23 @@ Na tabela abaixo é possível visualizar os resultados de cada Sprint clicando e
 
 Foram usadas as seguintes ferramentas, linguagens e tecnologias para a execução do projeto:
 
-- [Git](https://git-scm.com): Versionamento
+- [Git](https://git-scm.com): Versionamento de código
 - [GitHub](https://github.com/): Armazenamento de código
 - [Teams](https://teams.microsoft.com): Comunicação interna do grupo
 - [Slack](https://slack.com/intl/pt-br): Comunicação com o cliente
+- [DevOps](https://azure.microsoft.com/pt-br/products/devops): Planejamento e gestão do projeto
+- [Docker](https://docs.docker.com/): Integração entre Front-End e Back-End;
+- [MongoDB](https://www.mongodb.com/pt-br): Banco de dados NoSQL;
+- [Python](https://www.python.org/): Automação com inteligência artificial
+- [Java](https://www.java.com/pt-BR/): Aplicação de lógica de programação no back-end
+- [Vue](https://vuejs.org/): Framework para a construção de interfaces web
+- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript): Linguagem de programação aplicada para front-end
 
 → [Voltar ao topo](#topo)    
     
 <span id="equipe">
 
-## 👩‍💻 Equipe
+## 👥 Equipe
 |Função|Nome|GitHub|LinkedIn|
 | -------- |-------- |-------- |-------- |
 | Scrum Master |Ana Carolina das Neves|<a href="https://github.com/AnaCarolinaNeves" target="_blanck"><img src = "https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a> |<a href="https://www.linkedin.com/in/ana-carolina-neves-36aa68207/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>|
