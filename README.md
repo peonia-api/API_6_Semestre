@@ -13,7 +13,7 @@
 
 <span id="objetivo">
 
-<h2> :dart: Objetivo</h2>
+## 🎯 Objetivo
 
 <p align="justify">
   Na indústria petrolífera e em embarcações de exploração de petróleo existem locais de acesso restrito denominados Red Zone. Por segurança, nestas Red Zones deve haver o monitoramento da quantidade de acessos, que é feito atualmente por meio de câmeras nos locais. Essas imagens são monitoradas por guardas e todos os registros de entrada e saída desses locais são lançados manualmente em planilhas.
@@ -32,10 +32,10 @@ Na tabela abaixo é possível visualizar os resultados de cada Sprint clicando e
     
 | Sprint | Entrega | Status | Relatório |
 |:-----:|:----------:|:---------:|:---------:|
-| 01 | 14/04/2024 |	Em desenvolvimento | [Ver relatório](https://github.com/peonia-api/API_6_Semestre/tree/main/Docs/Sprint-01) |
-| 02 | 05/05/2024 |	Pendente | [Em breve]  |
-| 03 | 26/05/2024 |	Pendente | [Em breve]  |
-| 04 | 16/06/2024 |	Pendente | [Em breve]  |
+| 01 | 14/04/2024 |	⚙️ | [Ver relatório](https://github.com/peonia-api/API_6_Semestre/tree/main/Docs/Sprint-01) |
+| 02 | 05/05/2024 |	⏳ | [Em breve]  |
+| 03 | 26/05/2024 |	⏳ | [Em breve]  |
+| 04 | 16/06/2024 |	⏳ | [Em breve]  |
 
 
 → [Voltar ao topo](#topo)
@@ -45,11 +45,21 @@ Na tabela abaixo é possível visualizar os resultados de cada Sprint clicando e
  ## 📌 Backlog do Produto
  
 <div align="center">
-    <p> 
-    Em breve
-      <!--- <img src=""> --->
-    </p>
+    <br>
+      <img src="Images/Backlog do Produto 1.png">
+    <br>
+      <img src="Images/Backlog do Produto 2.png">
+    <br>
 </div>
+
+<br>
+
+- RF1: Desenvolver uma interface web intuitiva, com autenticação;
+- RF2: Desenvolver um dashboard com indicadores por períodos;
+- RF3: Filtros por períodos para análise dos dados;
+- RF4: Geração de relatórios para compartilhamento.
+
+<br>
     
 → [Voltar ao topo](#topo)  
 
@@ -76,7 +86,7 @@ Foram usadas as seguintes ferramentas, linguagens e tecnologias para a execuçã
 
 <span id="commits">
 
-<h2> Padronização de Commits</h2>
+## 🗂️ Padronização de Commits
 
 <p align="justify">
     Para organizar o repositório em que o projeto foi armazenado e torná-lo mais acessível, foi adotado o chamado <i>conventional commit</i>, um método que padroniza todas as alterações realizadas. Com isso, qualquer pessoa que consultar o histórico de commits realizados nos repositórios deste projeto será capaz de identificar que tipo de alteração foi feita no código da aplicação a cada commit. 
@@ -95,14 +105,18 @@ Foram usadas as seguintes ferramentas, linguagens e tecnologias para a execuçã
 
 ```docs: update sprint backlog```
 
+<br>
 
 Repositório de referência: [Conventional Commits](https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13)
+
+<br>
 
 → [Voltar ao topo](#topo)  
     
 <span id="equipe">
 
 ## 👥 Equipe
+
 |Função|Nome|GitHub|LinkedIn|
 | -------- |-------- |-------- |-------- |
 | Scrum Master |Ana Carolina das Neves|<a href="https://github.com/AnaCarolinaNeves" target="_blanck"><img src = "https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a> |<a href="https://www.linkedin.com/in/ana-carolina-neves-36aa68207/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>|
