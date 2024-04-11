@@ -7,6 +7,7 @@
     <a href="#relatório">Relatórios</a> | 
     <a href="#projeto">Backlog</a> |
     <a href="#tecnologias">Tecnologias</a> | 
+    <a href="commits">Commits</a> |
     <a href="#equipe">Equipe</a> 
 </p>
 
@@ -31,7 +32,7 @@ Na tabela abaixo é possível visualizar os resultados de cada Sprint clicando e
     
 | Sprint | Entrega | Status | Relatório |
 |:-----:|:----------:|:---------:|:---------:|
-| 01 | 14/04/2024 |	Pendente | [Em breve] |
+| 01 | 14/04/2024 |	Em desenvolvimento | [Ver relatório](https://github.com/peonia-api/API_6_Semestre/tree/sprint-01) |
 | 02 | 05/05/2024 |	Pendente | [Em breve]  |
 | 03 | 26/05/2024 |	Pendente | [Em breve]  |
 | 04 | 16/06/2024 |	Pendente | [Em breve]  |
@@ -41,14 +42,12 @@ Na tabela abaixo é possível visualizar os resultados de cada Sprint clicando e
 
 <span id="projeto">
     
- ## 📌 Backlogs & User Stories
+ ## 📌 Backlog do Produto
  
 <div align="center">
     <p> 
-      <img src="Images/Backlog do Produto.png">
-      <img src="Images/Backlog das Sprints.png">
-      <img src="Images/User Stories 1.png">
-      <img src="Images/User Stories 2.png">
+    Em breve
+      <!--- <img src=""> --->
     </p>
 </div>
     
@@ -65,14 +64,41 @@ Foram usadas as seguintes ferramentas, linguagens e tecnologias para a execuçã
 - [Teams](https://teams.microsoft.com): Comunicação interna do grupo
 - [Slack](https://slack.com/intl/pt-br): Comunicação com o cliente
 - [DevOps](https://azure.microsoft.com/pt-br/products/devops): Planejamento e gestão do projeto
-- [Docker](https://docs.docker.com/): Integração entre Front-End e Back-End;
-- [MongoDB](https://www.mongodb.com/pt-br): Banco de dados NoSQL;
+- [Docker](https://docs.docker.com/): Integração entre Front-End e Back-End
+- [MongoDB](https://www.mongodb.com/pt-br): Banco de dados NoSQL
 - [Python](https://www.python.org/): Automação com inteligência artificial
 - [Java](https://www.java.com/pt-BR/): Aplicação de lógica de programação no back-end
+- [Spring](https://spring.io/): Framework de desenvolvimento de aplicações Java 
 - [Vue](https://vuejs.org/): Framework para a construção de interfaces web
-- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript): Linguagem de programação aplicada para front-end
+- [Typescript](https://www.typescriptlang.org/): Linguagem de programação aplicada para front-end
 
 → [Voltar ao topo](#topo)    
+
+<span id="commits">
+
+<h2> Padronização de Commits</h2>
+
+<p align="justify">
+    Para organizar o repositório em que o projeto foi armazenado e torná-lo mais acessível, foi adotado o chamado <i>conventional commit</i>, um método que padroniza todas as alterações realizadas. Com isso, qualquer pessoa que consultar o histórico de commits realizados nos repositórios deste projeto será capaz de identificar que tipo de alteração foi feita no código da aplicação a cada commit. 
+    <br>
+    <br>
+    Esse tipo de convenção divide a mensagem de commit em duas partes fundamentais: o tipo de commit e a descrição do que foi incluído, alterado ou excluído. Por tipo de commit é possível entender se foi feita a correção de um bug (fix), se foi excluída ou implementada uma nova feature (feat), se foi adicionada alguma documentação (docs), entre outros. Por fim, a descrição contém um breve resumo sobre o que foi modificado.
+    <br>
+    <br>
+    Seguem alguns exemplos da padronização adotada:
+    <br>
+</p>
+
+```feat: add user management section```
+
+```chore: modify .gitignore```
+
+```docs: update sprint backlog```
+
+
+Repositório de referência: [Conventional Commits](https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13)
+
+→ [Voltar ao topo](#topo)  
     
 <span id="equipe">
 
