@@ -7,7 +7,7 @@
     <a href="#relatório">Relatórios</a> | 
     <a href="#projeto">Backlog</a> |
     <a href="#tecnologias">Tecnologias</a> | 
-    <a href="commits">Commits</a> |
+    <a href="#commits">Commits</a> |
     <a href="#equipe">Equipe</a> 
 </p>
 
@@ -32,7 +32,7 @@ Na tabela abaixo é possível visualizar os resultados de cada Sprint clicando e
     
 | Sprint | Entrega | Status | Relatório |
 |:-----:|:----------:|:---------:|:---------:|
-| 01 | 14/04/2024 |	Em desenvolvimento | [Ver relatório](https://github.com/peonia-api/API_6_Semestre/tree/sprint-01) |
+| 01 | 14/04/2024 |	Em desenvolvimento | [Ver relatório](https://github.com/peonia-api/API_6_Semestre/tree/main/Docs/Sprint-01) |
 | 02 | 05/05/2024 |	Pendente | [Em breve]  |
 | 03 | 26/05/2024 |	Pendente | [Em breve]  |
 | 04 | 16/06/2024 |	Pendente | [Em breve]  |
