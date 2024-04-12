@@ -1,4 +1,4 @@
-<br id="topo">
+[<br id="topo">
 
 <img src="Images/capa-nova.png">
 
@@ -87,9 +87,19 @@ Foram usadas as seguintes ferramentas, linguagens e tecnologias para a execuçã
 <span id="commits">
 
 ## 🗂️ Padronização de Commits
-
 <p align="justify">
-    Para organizar o repositório em que o projeto foi armazenado e torná-lo mais acessível, foi adotado o chamado <i>conventional commit</i>, um método que padroniza todas as alterações realizadas. Com isso, qualquer pessoa que consultar o histórico de commits realizados nos repositórios deste projeto será capaz de identificar que tipo de alteração foi feita no código da aplicação a cada commit. 
+    No início da primeira sprint, foi estabelecido um padrão para as mensagens de commit, o qual segue a seguinte estrutura:
+    
+- `<Ação>`: Representa a ação realizada, como "Add" para adições de novos recursos, "Fix" para correções de bugs, "Update" para atualizações de funcionalidades existentes, etc.
+- `<Descrição>`: Fornece uma breve descrição do que foi alterado ou adicionado.
+
+Exemplos de mensagens de commit seguindo este padrão:
+
+- `adding images and technologies`: Adição de imagens e tecnologias.
+- `removed unused imports`: Remoção de importações não utilizadas.
+- `fixed some error with mongoDB`: Correção de erro relacionado ao MongoDB.
+<br>
+    Ao final da sprint, foi convencionado que seria adotada outra forma de padronização, já amplamente utilizada na área de desenvolvimento de software, o <i>conventional commit</i>. Esta nova abordagem foi implementada para organizar o repositório em que o projeto foi armazenado, tornando-o mais acessível. O conventional commits padroniza todas as alterações realizadas, permitindo que qualquer pessoa que consulte o histórico de commits deste projeto seja capaz de identificar facilmente o tipo de alteração feita no código da aplicação em cada commit.
     <br>
     <br>
     Esse tipo de convenção divide a mensagem de commit em duas partes fundamentais: o tipo de commit e a descrição do que foi incluído, alterado ou excluído. Por tipo de commit é possível entender se foi feita a correção de um bug (fix), se foi excluída ou implementada uma nova feature (feat), se foi adicionada alguma documentação (docs), entre outros. Por fim, a descrição contém um breve resumo sobre o que foi modificado.
@@ -129,3 +139,4 @@ Repositório de referência: [Conventional Commits](https://gist.github.com/qoom
 → [Voltar ao topo](#topo)   
 
 <h5 align="center"> Aprendizagem por Projetos Integrados - Faculdade de Tecnologia de São José dos Campos - Prof. Jessen Vidal </h5>
+](url)
