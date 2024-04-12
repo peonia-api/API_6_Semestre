@@ -8,6 +8,7 @@
     <a href="#projeto">Backlog</a> |
     <a href="#tecnologias">Tecnologias</a> | 
     <a href="#commits">Commits</a> |
+    <a href="#branches">Branches</a> |
     <a href="#equipe">Equipe</a> 
 </p>
 
@@ -120,6 +121,27 @@ Exemplos de mensagens de commit seguindo este padrão:
 Repositório de referência: [Conventional Commits](https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13)
 
 <br>
+
+→ [Voltar ao topo](#topo) 
+
+<span id="branches">
+
+## ⚙️ Estratégia de Branches
+<p align="justify">
+    Para a primeira sprint, seguimos uma estratégia de nomenclatura de branches baseada em tarefas ou funcionalidades. Isso significa que cada branch é nomeada de forma descritiva para indicar a tarefa ou funcionalidade em que está trabalhando.
+<br>
+    <p>Exemplos da estratégia adotada:</p>
+    
+### Repositório [IA](https://github.com/peonia-api/API_6_Semestre_IA)
+- **dataset:** Esta branch está focada na organização do dataset utilizado no desenvolvimento da IA.
+- **ia:** Esta branch está dedicada ao treinamento do modelo de IA.
+- **camera:** Esta branch se concentra no desenvolvimento da funcionalidade de identificação de pessoas por meio de câmeras
+    
+### Repositório [Vue](https://github.com/peonia-api/API_6_Semestre_Vue)
+- **Ligacao:** Esta branch está relacionada à implementação da funcionalidade de ligação, entre o back-end com o front-end, dentro do componente Vue.
+- **relatorio:** Esta branch está sendo usada para implementar a tela de relatório na aplicação Vue.
+
+</p>
 
 → [Voltar ao topo](#topo)  
     
