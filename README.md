@@ -1,4 +1,4 @@
-[<br id="topo">
+<br id="topo">
 
 <img src="Images/capa-nova.png">
 
@@ -161,4 +161,3 @@ Repositório de referência: [Conventional Commits](https://gist.github.com/qoom
 → [Voltar ao topo](#topo)   
 
 <h5 align="center"> Aprendizagem por Projetos Integrados - Faculdade de Tecnologia de São José dos Campos - Prof. Jessen Vidal </h5>
-](url)
