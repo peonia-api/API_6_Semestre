@@ -33,6 +33,96 @@
 
 <br>
 
+#### US #1: Como usuário comum desejo visualizar, em tempo real, os registros de entrada e de saída de cada red zone pertencente à área na qual atuo para que eu possa monitorar o fluxo de pessoas nesse local.
+
+Critérios de aceitação:
+
+ - Cenário 1: O sistema já conta com alguns registros de entrada e de saída de pessoas
+
+      Dado que:
+      - O usuário é responsável pelo monitoramento de uma red zone específica
+      - A câmera de segurança dessa red zone já registrou movimentação de pessoas na área
+      
+      Quando:
+      - O usuário acessa a página de visualização em tempo real das imagens das câmeras de segurança
+      
+      Então:
+      - O usuário será capaz de monitorar o fluxo de pessoas naquela área
+      - O usuário visualizará com exatidão a data e o horário de entrada e de saída de pessoas daquela red zone
+
+ - Cenário 2: Ainda não há nenhum registro de entrada e de saída de pessoas no sistema
+
+      Dado que:
+      - O usuário é responsável pelo monitoramento de determinada red zone
+      - A câmera de segurança dessa red zone ainda não registrou nenhuma movimentação na área
+      
+      Quando:
+      - O usuário acessa a página de visualização em tempo real das imagens das câmeras de segurança
+      
+      Então:
+      - O usuário pode constatar que a área segue sem movimentação de pessoas
+
+ - Cenário 3: O sistema permite que o usuário tenha acesso às imagens das câmeras de segurança
+
+      Dado que:
+      - O usuário é responsável pelo monitoramento de uma red zone específica
+      - A red zone conta com uma câmera de segurança que monitora em tempo real toda a movimentação de pessoas na área
+      
+      Quando:
+      - O usuário acessa a página de visualização em tempo real das imagens das câmeras de segurança
+      
+      Então:
+      - O usuário pode validar as movimentações capturadas pela inteligência artificial
+
+#### US #2: Como usuário comum desejo que os registros de entrada e de saída de cada red zone sejam reconhecidos e armazenados no sistema de forma automatizada para facilitar o monitoramento desses locais.
+
+Critérios de aceitação:
+
+ - Cenário 1: O sistema já conta com alguns registros de entrada e de saída de pessoas
+
+     Dado que:
+      - O usuário é responsável pelo monitoramento de uma red zone específica
+     - A câmera de segurança dessa red zone já registrou movimentação de pessoas na área
+     - O sistema armazena todos os dados de entrada e de saída da red zone
+     
+     Quando:
+      - O usuário acessa a página de dados registrados pelas câmeras de segurança
+
+     Então:
+     - O usuário será capaz de monitorar o fluxo de pessoas naquela área
+     - O usuário visualizará com exatidão a data e o horário de entrada e de saída de pessoas daquela red zone
+     - A partir desses dados, o usuário poderá pensar em estratégias para melhorar o fluxo de pessoas naquela região
+
+ - Cenário 2: Ainda não há nenhum registro de entrada e de saída de pessoas no sistema
+
+     Dado que:
+     - O usuário é responsável pelo monitoramento de determinada red zone
+     - A câmera de segurança dessa red zone ainda não registrou nenhuma movimentação na área
+     
+     Quando:
+     - O usuário acessa a página de visualização em tempo real das imagens das câmeras de segurança
+     
+     Então:
+     - O usuário pode constatar que a área segue sem movimentação de pessoas
+
+#### US #4: Como gerente de área desejo visualizar os relatórios contendo os dados de acesso de pessoas às red zones pertencentes à área a qual eu sou responsável para organizar os dados relacionados ao fluxo de pessoas nesses locais.
+
+Critérios de aceitação:
+
+ - Cenário 1: O sistema já conta com alguns registros de entrada e de saída de pessoas
+
+     Dado que:
+     - O usuário é responsável pelo gerenciamento de uma ou mais red zone  
+     - As câmeras de segurança das red zones que compõem essa(s) área(s) já registraram a movimentação de pessoas
+     
+     Quando:
+     - O usuário gerente de área acessar os dados coletados pelo sistema
+     
+     Então:
+     - O usuário gerente de área terá a possibilidade de gerar relatórios para facilitar a visualização dos dados coletados pelas câmeras de segurança
+
+<br>
+
 → [Voltar ao topo](#topo)   
 
 <span id="design">
