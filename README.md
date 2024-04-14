@@ -33,8 +33,8 @@ Na tabela abaixo é possível visualizar os resultados de cada Sprint clicando e
     
 | Sprint | Entrega | Status | Relatório |
 |:-----:|:----------:|:---------:|:---------:|
-| 01 | 14/04/2024 |	⚙️ | [Ver relatório](https://github.com/peonia-api/API_6_Semestre/tree/main/Docs/Sprint-01) |
-| 02 | 05/05/2024 |	⏳ | [Ver relatório](https://github.com/peonia-api/API_6_Semestre/tree/main/Docs/Sprint-02)  |
+| 01 | 14/04/2024 |	✅ | [Ver relatório](https://github.com/peonia-api/API_6_Semestre/tree/main/Docs/Sprint-01) |
+| 02 | 05/05/2024 |	⏳ | [Ver relatório](https://github.com/peonia-api/API_6_Semestre/tree/main/Docs/Sprint-02) |
 | 03 | 26/05/2024 |	⏳ | [Em breve]  |
 | 04 | 16/06/2024 |	⏳ | [Em breve]  |
 
