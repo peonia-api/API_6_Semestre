@@ -136,7 +136,13 @@ Critérios de aceitação:
 
   ## 📝 Modelo de Dados
 
-[Em breve]
+<div align="center">
+ <img src="Imagens/DER.jpg">
+</div>
+
+<br>
+
+→ [Voltar ao topo](#topo)   
 
 <span id="entrega">
 
