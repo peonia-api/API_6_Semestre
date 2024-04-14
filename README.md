@@ -34,7 +34,7 @@ Na tabela abaixo é possível visualizar os resultados de cada Sprint clicando e
 | Sprint | Entrega | Status | Relatório |
 |:-----:|:----------:|:---------:|:---------:|
 | 01 | 14/04/2024 |	⚙️ | [Ver relatório](https://github.com/peonia-api/API_6_Semestre/tree/main/Docs/Sprint-01) |
-| 02 | 05/05/2024 |	⏳ | [Em breve]  |
+| 02 | 05/05/2024 |	⏳ | [Ver relatório](https://github.com/peonia-api/API_6_Semestre/tree/main/Docs/Sprint-02)  |
 | 03 | 26/05/2024 |	⏳ | [Em breve]  |
 | 04 | 16/06/2024 |	⏳ | [Em breve]  |
 
@@ -55,10 +55,10 @@ Na tabela abaixo é possível visualizar os resultados de cada Sprint clicando e
 
 <br>
 
-- RF1: Desenvolver uma interface web intuitiva, com autenticação;
-- RF2: Desenvolver um dashboard com indicadores por períodos;
-- RF3: Filtros por períodos para análise dos dados;
-- RF4: Geração de relatórios para compartilhamento.
+- Requisito Funcional #1 (RF1): Desenvolver uma interface web intuitiva, com autenticação;
+- Requisito Funcional #2 (RF2): Desenvolver um dashboard com indicadores por períodos;
+- Requisito Funcional #3 (RF3): Filtros por períodos para análise dos dados;
+- Requisito Funcional #4 (RF4): Geração de relatórios para compartilhamento.
 
 <br>
     
