@@ -140,6 +140,16 @@ Repositório de referência: [Conventional Commits](https://gist.github.com/qoom
 ### Repositório [Vue](https://github.com/peonia-api/API_6_Semestre_Vue)
 - **Ligacao:** Esta branch está relacionada à implementação da funcionalidade de ligação, entre o back-end com o front-end, dentro do componente Vue.
 - **relatorio:** Esta branch está sendo usada para implementar a tela de relatório na aplicação Vue.
+<hr>
+A partir da segunda sprint, decidimos alinhar a estratégia de nomenclatura das branches com o padrão de commits adotado. Portanto, as novas branches seguirão o mesmo padrão de mensagens de commit.
+<br>
+    <p>Exemplos:</p>
+    
+```feature/branch-name```
+
+```bugfix/branch-name```
+
+```test/branch-name```
 
 </p>
 
