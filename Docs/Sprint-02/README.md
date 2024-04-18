@@ -144,6 +144,16 @@ Critérios de aceitação:
 
 → [Voltar ao topo](#topo)   
 
+ ## 📖 Fonte de Dados
+
+<div align="justify">
+ <p>
+  O modelo de Machine Learning criado na primeira sprint será aprimorado a partir do conjunto de dados da biblioteca TensorFlow. Considerada a principal biblioteca de código aberto da atualidade, o TensorFlow permite que tanto usuários iniciantes quanto avançados possam criar modelos de Machine Learning para uso em computadores, dispositivos móveis, na Web e até mesmo em nuvem.
+ </p>
+</div>
+
+Leia mais na [documentação oficial](https://www.tensorflow.org/learn?hl=pt-br).
+
 <span id="entrega">
 
   ## 💻 Entrega
