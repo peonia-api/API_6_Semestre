@@ -47,20 +47,22 @@ Na tabela abaixo é possível visualizar os resultados de cada Sprint clicando e
  
 <div align="center">
     <br>
-      <img src="Images/Backlog do Produto 1.png">
-    <br>
-      <img src="Images/Backlog do Produto 2.png">
+      <img src="Images/Backlog do Produto.png">
     <br>
 </div>
 
 <br>
 
-- Requisito Funcional #1 (RF1): Desenvolver uma interface web intuitiva, com autenticação;
-- Requisito Funcional #2 (RF2): Desenvolver um dashboard com indicadores por períodos;
-- Requisito Funcional #3 (RF3): Filtros por períodos para análise dos dados;
-- Requisito Funcional #4 (RF4): Geração de relatórios para compartilhamento.
+- Requisito Funcional #1 (RF1): Desenvolver uma interface web intuitiva para visualização dos registros em forma de relatórios;
+- Requisito Funcional #2 (RF2): Permitir exportação de relatórios contendo os registros do monitoramento realizado;
+- Requisito Funcional #3 (RF3): Implementar modelo de machine learning para automatizar o monitoramento das red zones;
+- Requisito Funcional #4 (RF4): Implementar método de autenticação de usuários;
+- Requisito Funcional #5 (RF5): Criar seção para gestão de usuários;
+- Requisito Funcional #6 (RF6): Permitir a inclusão e exclusão de usuários no sistema;
+- Requisito Funcional #7 (RF7): Criar seção para gestão de red zones, permitindo a inclusão e exclusão de red zones do sistema;
+- Requisito Funcional #8 (RF8): Desenvolver um dashboard com indicadores por períodos;
+- Requisito Funcional #9 (RF9): Permitir que o usuário aplique filtros por períodos para análise dos dados.
 
-<br>
     
 → [Voltar ao topo](#topo)  
 
@@ -163,6 +165,7 @@ A partir da segunda sprint, decidimos alinhar a estratégia de nomenclatura das 
 | -------- |-------- |-------- |-------- |
 | Scrum Master |Ana Carolina das Neves|<a href="https://github.com/AnaCarolinaNeves" target="_blanck"><img src = "https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a> |<a href="https://www.linkedin.com/in/ana-carolina-neves-36aa68207/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>|
 | Product Owner |Larissa Aparecida Diniz Silva|<a href="https://github.com/laaridiniz" target="_blanck"><img src = "https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a> |<a href="https://www.linkedin.com/in/larissa-diniz-dev" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>|
+| Developer |Ana Paula S. Oliveira|<a href="https://github.com/AnaPaulaSOliveira" target="_blanck"><img src = "https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>| - |
 | Developer |Diego Batista da Silva|<a href="https://github.com/diiegobsilva" target="_blanck"><img src = "https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>|<a href="https://www.linkedin.com/in/diegobatista1/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>|
 | Developer |Jeniffer Cristina Freitas Ramos|<a href="https://github.com/Jennyads" target="_blanck"><img src = "https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>|<a href="https://www.linkedin.com/in/jeniffer-cristina-65787b205/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>|
 | Developer |Mateus Henrique Lima da Silva|<a href="https://github.com/mateushlsilva" target="_blanck"><img src = "https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a> |<a href="https://www.linkedin.com/in/mateus-silva-80232a222/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>|
