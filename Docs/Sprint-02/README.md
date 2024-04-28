@@ -26,13 +26,52 @@
 
   ## 📑 User Stories e Critérios de Aceitação
 
-<div align="center">
- <img src="Imagens/US-Sprint-2.png">
-</div>
 
-<br>
+#### US #5: Como usuário administrador desejo adicionar e excluir usuários do sistema para ter controle de quem poderá acessar os dados das red zones.
 
-#### US #3: Como usuário desejo contar com um painel com recursos visuais para facilitar a visualização e interpretação dos registros de entrada e de saída de cada red zone.
+Critérios de aceitação:
+
+ - Cenário 1: O sistema já conta com o cadastro do usuário administrador ativo 
+
+      Dado que:
+      - O usuário é responsável pela administração do sistema como um todo
+      
+      Quando:
+      - O usuário acessa a página de cadastro de usuários
+      
+      Então:
+      - O usuário será capaz de adicionar um novo usuário
+      - O usuário administrador poderá definir qual o papel do novo usuário dentro do sistema, limitando as ações desse usuário sobre os dados do sistema
+
+
+#### US #6: Como usuário administrador desejo que o sistema seja dotado de um método de autenticação para que somente pessoas autorizadas possam visualizar os registros relacionados a cada red zone
+
+Critérios de aceitação:
+
+ - Cenário 1: O sistema tem apenas o usuário administrador cadastrado
+
+      Dado que:
+      - O usuário é responsável pela administração do sistema como um todo
+      
+      Quando:  
+      - O usuário acessa a página de cadastro de usuários
+      
+      Então:
+      - O usuário será capaz de, ao adicionar um novo usuário, definir uma senha de acesso temporária para autenticá-lo no ambiente
+
+ - Cenário 2: O usuário perdeu as suas credenciais de acesso
+
+      Dado que:
+      - O usuário precisa visualizar os dados constantes no sistema
+      
+      Quando:
+      - O usuário acessar a página de login
+      
+      Então:
+      - O usuário terá a opção de recuperar sua senha
+
+
+#### US #7: Como usuário desejo contar com um painel com recursos visuais para facilitar a visualização e interpretação dos registros de entrada e de saída de cada red zone.
 
 Critérios de aceitação:
 
@@ -59,51 +98,38 @@ Critérios de aceitação:
       
       Então:
       - O usuário pode constatar que a área segue sem movimentação de pessoas
+  
 
-
-#### US #7: Como usuário administrador desejo adicionar usuários ao sistema para ter controle de quem poderá acessar os dados das red zones.
-
-Critérios de aceitação:
-
- - Cenário 1: O sistema já conta com o cadastro do usuário administrador ativo 
-
-      Dado que:
-      - O usuário é responsável pela administração do sistema como um todo
-      
-      Quando:
-      - O usuário acessa a página de cadastro de usuários
-      
-      Então:
-      - O usuário será capaz de adicionar um novo usuário
-      - O usuário administrador poderá definir qual o papel do novo usuário dentro do sistema, limitando as ações desse usuário sobre os dados do sistema
-
-
-#### US #8: Como usuário administrador desejo que o sistema seja dotado de um método de autenticação para que somente pessoas autorizadas possam visualizar os registros relacionados a cada red zone
+#### US #8: Como usuário administrador desejo contar com uma seção específica de gerenciamento dos demais usuários que acessam o sistema para facilitar a gestão do ambiente.
 
 Critérios de aceitação:
 
- - Cenário 1: O sistema tem apenas o usuário administrador cadastrado
+ - Cenário 1: O sistema conta apenas com o usuário administrador cadastrado
 
       Dado que:
-      - O usuário é responsável pela administração do sistema como um todo
-      
-      Quando:  
-      - O usuário acessa a página de cadastro de usuários
-      
-      Então:
-      - O usuário será capaz de, ao adicionar um novo usuário, definir uma senha de acesso temporária para autenticá-lo no ambiente
-
- - Cenário 2: O usuário perdeu as suas credenciais de acesso
-
-      Dado que:
-      - O usuário precisa visualizar os dados constantes no sistema
+      - O usuário administrador fará a gestão de todos os usuários dentro do sistema
       
       Quando:
-      - O usuário acessar a página de login
+      - O usuário administrador acessar a tela de gestão de usuários
       
       Então:
-      - O usuário terá a opção de recuperar sua senha
+      - O usuário administrador visualizará uma lista de usuários ativos que contém apenas seu próprio usuário e não visualizará a opção de excluir esse usuário do sistema;
+      - O usuário administrador terá a opção de adicionar novos usuários.
 
+ - Cenário 2: O sistema conta com mais de um tipo de usuário cadastrado
+
+      Dado que:
+      - O usuário administrador é responsável pela gestão de todos os usuários dentro do sistema
+      - Outros tipos de usuários já foram adicionados ao sistema
+      
+      Quando:
+      - O usuário administrador acessar a página de gestão de usuários
+      
+      Então:
+      - O usuário administrador poderá visualizar e editar os dados constantes do cadastro de cada um desses usuários;
+      - O usuário administrador terá a opção de excluir qualquer outro usuário que não seja o seu;
+      - O usuário administrador poderá adicionar novos usuários ao sistema.
+  
    <br>
 
 → [Voltar ao topo](#topo)
@@ -125,7 +151,19 @@ Critérios de aceitação:
 <br>
 
 <div align="center">
+ <img src="Imagens/Gestão-Usuários.png">
+</div>
+
+<br>
+
+<div align="center">
  <img src="Imagens/Adicionar-Usuário.png">
+</div>
+
+<br>
+
+<div align="center">
+ <img src="Imagens/Detalhes.png">
 </div>
 
 <br>
