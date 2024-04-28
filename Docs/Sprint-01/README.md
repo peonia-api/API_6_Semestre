@@ -16,7 +16,7 @@
   ## 🎯 Backlog da Sprint
 
 <div align="center">
- <img src="Imagens/Backlog-Sprint-1.png">
+ <img src="Imagens/Backlog-1-Sprint.png">
 </div>
 
 <br>
@@ -27,11 +27,6 @@
 
   ## 📑 User Stories e Critérios de Aceitação
 
-<div align="center">
- <img src="Imagens/US-Sprint-1.png">
-</div>
-
-<br>
 
 #### US #1: Como usuário comum desejo visualizar, em tempo real, os registros de entrada e de saída de cada red zone pertencente à área na qual atuo para que eu possa monitorar o fluxo de pessoas nesse local.
 
@@ -105,14 +100,14 @@ Critérios de aceitação:
      Então:
      - O usuário pode constatar que a área segue sem movimentação de pessoas
 
-#### US #4: Como gerente de área desejo visualizar os relatórios contendo os dados de acesso de pessoas às red zones pertencentes à área a qual eu sou responsável para organizar os dados relacionados ao fluxo de pessoas nesses locais.
+#### US #3: Como gerente de área desejo visualizar os relatórios contendo os dados de acesso de pessoas às red zones pertencentes à área a qual eu sou responsável para organizar os dados relacionados ao fluxo de pessoas nesses locais.
 
 Critérios de aceitação:
 
  - Cenário 1: O sistema já conta com alguns registros de entrada e de saída de pessoas
 
      Dado que:
-     - O usuário é responsável pelo gerenciamento de uma ou mais red zone  
+     - O usuário é responsável pelo gerenciamento de uma ou mais red zones  
      - As câmeras de segurança das red zones que compõem essa(s) área(s) já registraram a movimentação de pessoas
      
      Quando:
@@ -121,7 +116,22 @@ Critérios de aceitação:
      Então:
      - O usuário gerente de área terá a possibilidade de gerar relatórios para facilitar a visualização dos dados coletados pelas câmeras de segurança
 
-<br>
+#### US #4: Como gerente de área desejo poder exportar os relatórios com os dados de cada red zone para facilitar o compartilhamento com outros profissionais e integrar esses dados com outras ferramentas.
+
+Critérios de aceitação:
+
+ - Cenário 1: O sistema já conta com alguns registros de entrada e de saída de pessoas
+
+     Dado que:
+     - O usuário é responsável pelo gerenciamento de uma ou mais red zones  
+     - As câmeras de segurança das red zones que compõem essa(s) área(s) já registraram a movimentação de pessoas
+     
+     Quando:
+     - O usuário gerente de área exportar os dados coletados pelo sistema
+     
+     Então:
+     - O usuário gerente de área terá a possibilidade de exportar os relatórios gerados pelo sistema para facilitar o compartilhamento desses dados com outros profissionais e até mesmo integrar esses dados com outras ferramentas.
+
 
 → [Voltar ao topo](#topo)   
 
