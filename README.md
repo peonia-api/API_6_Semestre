@@ -78,6 +78,7 @@ Foram usadas as seguintes ferramentas, linguagens e tecnologias para a execuçã
 - [Slack](https://slack.com/intl/pt-br): Comunicação com o cliente
 - [DevOps](https://azure.microsoft.com/pt-br/products/devops): Planejamento e gestão do projeto
 - [Docker](https://docs.docker.com/): Integração entre Front-End e Back-End
+- [PostgreSQL](https://www.postgresql.org/): Banco de dados SQL
 - [MongoDB](https://www.mongodb.com/pt-br): Banco de dados NoSQL
 - [Python](https://www.python.org/): Automação com inteligência artificial
 - [Java](https://www.java.com/pt-BR/): Aplicação de lógica de programação no back-end
