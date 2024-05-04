@@ -175,7 +175,7 @@ Critérios de aceitação:
   ## 📝 Modelo de Dados
 
 <div align="center">
- <img src="Imagens/Diagrama ER.png">
+ <img src="Imagens/DiagramaER_2.png">
 </div>
 
 <br>
