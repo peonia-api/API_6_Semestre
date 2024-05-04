@@ -184,13 +184,13 @@ Critérios de aceitação:
 
  ## 📖 Fonte de Dados
 
-<div align="justify">
- <p>
-  O modelo de Machine Learning criado na primeira sprint será aprimorado a partir do conjunto de dados da biblioteca TensorFlow. Considerada a principal biblioteca de código aberto da atualidade, o TensorFlow permite que tanto usuários iniciantes quanto avançados possam criar modelos de Machine Learning para uso em computadores, dispositivos móveis, na Web e até mesmo em nuvem.
- </p>
-</div>
+  O modelo de Machine Learning criado na primeira sprint será aprimorado com imagens e vídeos produzidos pelos próprios integrantes da equipe. Durante o treinamento, também foram usadas imagens do banco público [Pexels](https://www.pexels.com/pt-br/).
+  <br>
+  <br>
+  Esses materiais foram inicialmente associados ao conjunto de dados da biblioteca [TensorFlow](https://www.tensorflow.org/learn?hl=pt-br). Porém, ao longo da sprint, optamos por migrar para o algoritmo de detecção de objetos [YoloV8](https://docs.ultralytics.com/pt). De acordo com a documentação oficial da Ultralytics, esse algoritmo consiste em um modelo de deteção de objetos e segmentação de imagens em tempo real baseado em avanços de ponta em aprendizagem profunda e visão computacional, que oferece um desempenho de destaque em termos de velocidade e precisão.
+  <br>
 
-Leia mais na [documentação oficial](https://www.tensorflow.org/learn?hl=pt-br).
+→ [Voltar ao topo](#topo)   
 
 <span id="entrega">
 
