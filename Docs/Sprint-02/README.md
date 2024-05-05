@@ -8,7 +8,8 @@
     <a href="#design">Design de Interação</a> | 
     <a href="#dados">Modelo de Dados</a> |
     <a href="#fonte">Fonte de Dados</a> |
-    <a href="#entrega">Entrega</a> 
+    <a href="#entrega">Entrega</a> |
+    <a href="#burndown">Burndown</a>
 </p>
 
 <span id="backlog">
@@ -199,6 +200,40 @@ Critérios de aceitação:
 
   ## 💻 Entrega
 
+https://github.com/peonia-api/API_6_Semestre/assets/86115352/a175e2b2-02a1-4cf2-bc20-201c1efcecea
+
+
+https://github.com/peonia-api/API_6_Semestre/assets/86115352/c8d423fd-36c6-4ea6-9597-006214179a96
+
+
+https://github.com/peonia-api/API_6_Semestre/assets/86115352/75feb3f5-e813-403c-b4c1-d020e18f2e5d
+
+
+https://github.com/peonia-api/API_6_Semestre/assets/86115352/4086de87-3a39-4e44-b6ed-6a06b6c454ab
+
+
+https://github.com/peonia-api/API_6_Semestre/assets/86115352/ae022536-0ba7-470d-a872-77c34655e644
+
+
+https://github.com/peonia-api/API_6_Semestre/assets/86115352/a6ecd396-4c04-4618-9eb7-7e54d73b3ee8
+
+
+https://github.com/peonia-api/API_6_Semestre/assets/86115352/656a6346-5134-4dbe-b1ed-194862e28308
+
 
 
 → [Voltar ao topo](#topo)   
+
+<span id="burndown">
+
+## 📉 Gráfico de Burndown 
+
+<div align="center">
+ <img src="Imagens/burndown-sprint02.png">
+</div>
+
+<br>
+
+→ [Voltar ao topo](#topo)  
+
+<h5 align="center"> Aprendizagem por Projetos Integrados - Faculdade de Tecnologia de São José dos Campos - Prof. Jessen Vidal </h5>
