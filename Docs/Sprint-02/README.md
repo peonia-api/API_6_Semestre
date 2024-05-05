@@ -7,6 +7,7 @@
     <a href="#us">User Stories e Critérios de Aceitação</a> | 
     <a href="#design">Design de Interação</a> | 
     <a href="#dados">Modelo de Dados</a> |
+    <a href="#fonte">Fonte de Dados</a> |
     <a href="#entrega">Entrega</a> 
 </p>
 
@@ -182,6 +183,8 @@ Critérios de aceitação:
 
 → [Voltar ao topo](#topo)   
 
+<span id="fonte">
+
  ## 📖 Fonte de Dados
 
   O modelo de Machine Learning criado na primeira sprint será aprimorado com imagens e vídeos produzidos pelos próprios integrantes da equipe. Durante o treinamento, também foram usadas imagens do banco público [Pexels](https://www.pexels.com/pt-br/).
@@ -196,4 +199,6 @@ Critérios de aceitação:
 
   ## 💻 Entrega
 
-[Em breve]
+
+
+→ [Voltar ao topo](#topo)   
