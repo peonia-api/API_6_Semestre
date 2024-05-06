@@ -30,7 +30,29 @@
 
 Critérios de aceitação:
 
-[Em breve]
+ - Cenário 1: O sistema ainda não tem nenhuma red zone cadastrada
+
+      Dado que:
+      - O usuário é responsável pela administração do sistema como um todo
+      
+      Quando:
+      - O usuário acessa a página de cadastro de red zones
+      
+      Então:
+      - O usuário será capaz de cadastrar uma nova red zone
+      - O usuário administrador deverá associar essa red zone a uma área, além de definir qual a capacidade máxima da red zone cadastrada e quais os guardas que terão acesso aos dados dessa red zone.
+
+ - Cenário 2: O sistema já conta com pelo menos uma red zone cadastrada
+
+      Dado que:
+      - O usuário é responsável pela administração do sistema como um todo
+      
+      Quando:
+      - O usuário administrador acessa a página de cadastro de red zones
+      
+      Então:
+      - O usuário administrador visualizará uma lista de todas as red zones cadastradas
+      - O usuário administrador será capaz de editar algum dado relacionado à red zone consultada
   
    <br>
 
@@ -47,7 +69,7 @@ Critérios de aceitação:
 <br>
 
 <div align="center">
- <img src="Imagens/Detalhes-Red-Zone.png">
+ <img src="Imagens/Detalhes-Red-Zone-atualizada.png">
 </div>
 
 <br>
