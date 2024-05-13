@@ -15,7 +15,7 @@
   ## 🎯 Backlog da Sprint
 
 <div align="center">
- <img src="Imagens/Backlog-Sprint-3.png">
+ <img src="Imagens/Backlog-3.png">
 </div>
 
 <br>
@@ -25,6 +25,32 @@
 <span id="us">
 
   ## 📑 User Stories e Critérios de Aceitação
+
+#### US #2: Como usuário comum desejo que os registros de entrada e de saída de cada red zone sejam reconhecidos e armazenados no sistema de forma automatizada para facilitar o monitoramento desses locais.
+
+Critérios de aceitação:
+
+ - Cenário 1: Uma das câmeras de segurança da red zone fica indisponível
+
+      Dado que:
+      - O usuário é responsável pela vigilância das red zones de determinada área
+      
+      Quando:
+      - O usuário não consegue visualizar as imagens de uma das câmeras de segurança
+      
+      Então:
+      - O usuário será capaz de visualizar as imagens de outras câmeras que estejam disponíveis.
+
+ - Cenário 2: A câmera de segurança é submetida a diversas condições de luz.
+
+      Dado que:
+      - O usuário é responsável pela vigilância das red zones de determinada área
+      
+      Quando:
+      - O usuário acessar as imagens das câmeras de segurança
+      
+      Então:
+      - O sistema será capaz de identificar a movimentação de pessoas no local ainda que a área não esteja totalmente bem iluminada.
 
 #### US #9: Como usuário administrador desejo poder registrar, editar e excluir as red zones do sistema para adequá-lo ao cenário real.
 
