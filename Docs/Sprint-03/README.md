@@ -133,3 +133,7 @@ Critérios de aceitação:
   ## 💻 Entrega
 
 [Em breve]
+
+Obs.: Para acessar os vídeos utilizados para treinar a IA, basta clicar no link abaixo:
+
+https://drive.google.com/drive/folders/1M2-RnIgd5nNf4nRjwQ8mLhvvPamnGo1y?usp=drive_link
