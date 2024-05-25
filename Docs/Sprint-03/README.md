@@ -113,7 +113,7 @@ Critérios de aceitação:
   ## 📝 Modelo de Dados
 
 <div align="center">
- [Em breve]
+ <img src="Imagens/DER.png">
 </div>
 
 <br>
@@ -130,6 +130,8 @@ O treinamento foi feito utilizando a biblioteca [YOLO](https://www.ultralytics.c
 <br>
 Além do treinamento, também produzimos alguns vídeos para exemplificar como a aplicação desenvolvida está se comportando em cenários diferentes dos utilizados nas entregas anteriores. Dessa vez foram usados diferentes ângulos e posicionamentos de câmera, em um ambiente com luminosidade maior. Para acessar os vídeos utilizados para treinar a IA, basta clicar neste [link](https://drive.google.com/drive/folders/1M2-RnIgd5nNf4nRjwQ8mLhvvPamnGo1y?usp=drive_link).
 
+
+→ [Voltar ao topo](#topo) 
 
 <span id="entrega">
 
