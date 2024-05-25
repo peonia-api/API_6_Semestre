@@ -122,11 +122,14 @@ Critérios de aceitação:
 
  ## 📖 Fonte de Dados
 
-<div align="justify">
- <p>
-  [Em breve]
- </p>
-</div>
+Nesta sprint, foi necessário treinar um modelo de dados para aprimorar o algoritmo de machine learning. Para isso, foram utilizadas algumas bases de dados públicas gratuítas fornecida pelo [RoboFlow](https://roboflow.com/) e pela [Kaggle](https://www.kaggle.com/datasets), refinando a identificação de pessoas e de objetos (portas).
+<br>
+<br>
+O treinamento foi feito utilizando a biblioteca [YOLO](https://www.ultralytics.com/pt/yolo), que fornece métodos para, a partir de uma base de dados, treinar um modelo de detecção de objetos e pessoas.
+<br>
+<br>
+Além do treinamento, também produzimos alguns vídeos para exemplificar como a aplicação desenvolvida está se comportando em cenários diferentes dos utilizados nas entregas anteriores. Dessa vez foram usados diferentes ângulos e posicionamentos de câmera, em um ambiente com luminosidade maior. Para acessar os vídeos utilizados para treinar a IA, basta clicar neste [link](https://drive.google.com/drive/folders/1M2-RnIgd5nNf4nRjwQ8mLhvvPamnGo1y?usp=drive_link).
+
 
 <span id="entrega">
 
@@ -134,6 +137,3 @@ Critérios de aceitação:
 
 [Em breve]
 
-Obs.: Para acessar os vídeos utilizados para treinar a IA, basta clicar no link abaixo:
-
-https://drive.google.com/drive/folders/1M2-RnIgd5nNf4nRjwQ8mLhvvPamnGo1y?usp=drive_link
