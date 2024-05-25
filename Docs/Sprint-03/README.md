@@ -122,7 +122,7 @@ Critérios de aceitação:
 
  ## 📖 Fonte de Dados
 
-Nesta sprint, foi necessário treinar um modelo de dados para aprimorar o algoritmo de machine learning. Para isso, foram utilizadas algumas bases de dados públicas gratuítas fornecida pelo [RoboFlow](https://roboflow.com/) e pela [Kaggle](https://www.kaggle.com/datasets), refinando a identificação de pessoas e de objetos (portas).
+Nesta sprint, foi necessário treinar um modelo de dados para aprimorar o algoritmo de machine learning. Para isso, foram utilizadas algumas bases de dados públicas gratuítas fornecida pelo [RoboFlow](https://universe.roboflow.com/ambient-guide/door-detection-rqbvj) e pela [Kaggle](https://www.kaggle.com/datasets/mayankchandak/voc2012-processed-data-for-yolov5), refinando a identificação de pessoas e de objetos (portas).
 <br>
 <br>
 O treinamento foi feito utilizando a biblioteca [YOLO](https://www.ultralytics.com/pt/yolo), que fornece métodos para, a partir de uma base de dados, treinar um modelo de detecção de objetos e pessoas.
