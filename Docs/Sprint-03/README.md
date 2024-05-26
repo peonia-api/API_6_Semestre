@@ -7,7 +7,8 @@
     <a href="#us">User Stories e Critérios de Aceitação</a> | 
     <a href="#design">Design de Interação</a> | 
     <a href="#dados">Modelo de Dados</a> |
-    <a href="#entrega">Entrega</a> 
+    <a href="#entrega">Entrega</a> |
+    <a href="#burndown">Burndown</a>
 </p>
 
 <span id="backlog">
@@ -137,5 +138,12 @@ Além do treinamento, também produzimos alguns vídeos para exemplificar como a
 
   ## 💻 Entrega
 
-[Em breve]
+https://github.com/peonia-api/API_6_Semestre/assets/89168187/307bdcd5-6fd6-4efe-8a84-45373aff0209
+
+
+https://github.com/peonia-api/API_6_Semestre/assets/89168187/090ee18a-0a31-4f6a-b983-75bdac78030a
+
+
+
+
 
