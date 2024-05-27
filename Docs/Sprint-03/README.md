@@ -144,6 +144,8 @@ https://github.com/peonia-api/API_6_Semestre/assets/89168187/307bdcd5-6fd6-4efe-
 https://github.com/peonia-api/API_6_Semestre/assets/89168187/090ee18a-0a31-4f6a-b983-75bdac78030a
 
 
+Para acessar o guia de instalação e acesso ao sistema, basta clicar [aqui](https://github.com/peonia-api/API_6_Semestre/blob/main/Docs/Guia%20de%20instala%C3%A7%C3%A3o%20e%20acesso.pdf).
+
 
 → [Voltar ao topo](#topo)   
 
