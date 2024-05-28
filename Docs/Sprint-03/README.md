@@ -7,7 +7,7 @@
     <a href="#us">User Stories e Critérios de Aceitação</a> | 
     <a href="#design">Design de Interação</a> | 
     <a href="#dados">Modelo de Dados</a> |
-    <a href="fonte">Fonte de Dados</a> |
+    <a href="#fonte">Fonte de Dados</a> |
     <a href="#entrega">Entrega</a> |
     <a href="#burndown">Burndown</a>
 </p>
