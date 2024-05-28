@@ -16,7 +16,7 @@
   ## 🎯 Backlog da Sprint
 
 <div align="center">
- <img src="Imagens/Backlog-Sprint-4.png">
+ <img src="Imagens/Backlog-4.png">
 </div>
 
 <br>
