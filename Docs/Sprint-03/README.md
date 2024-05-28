@@ -7,6 +7,7 @@
     <a href="#us">User Stories e Critérios de Aceitação</a> | 
     <a href="#design">Design de Interação</a> | 
     <a href="#dados">Modelo de Dados</a> |
+    <a href="fonte">Fonte de Dados</a> |
     <a href="#entrega">Entrega</a> |
     <a href="#burndown">Burndown</a>
 </p>
@@ -121,6 +122,8 @@ Critérios de aceitação:
 
 → [Voltar ao topo](#topo)   
 
+<span id="fonte">
+
  ## 📖 Fonte de Dados
 
 Nesta sprint, foi necessário treinar um modelo de dados para aprimorar o algoritmo de machine learning. Para isso, foram utilizadas algumas bases de dados públicas gratuítas fornecida pelo [RoboFlow](https://universe.roboflow.com/ambient-guide/door-detection-rqbvj) e pela [Kaggle](https://www.kaggle.com/datasets/mayankchandak/voc2012-processed-data-for-yolov5), refinando a identificação de pessoas e de objetos (portas).
@@ -130,6 +133,13 @@ O treinamento foi feito utilizando a biblioteca [YOLO](https://www.ultralytics.c
 <br>
 <br>
 Além do treinamento, também produzimos alguns vídeos para exemplificar como a aplicação desenvolvida está se comportando em cenários diferentes dos utilizados nas entregas anteriores. Dessa vez foram usados diferentes ângulos e posicionamentos de câmera, em um ambiente com luminosidade maior. Para acessar os vídeos utilizados para treinar a IA, basta clicar neste [link](https://drive.google.com/drive/folders/1M2-RnIgd5nNf4nRjwQ8mLhvvPamnGo1y?usp=drive_link).
+
+Na imagem abaixo, é possível visualizar os gráficos com os resultados dos treinamentos realizados:
+<br>
+
+<div align="center">
+ <img src="Imagens/results.png">
+</div>
 
 
 → [Voltar ao topo](#topo) 
