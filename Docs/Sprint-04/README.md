@@ -4,8 +4,7 @@
 
 <p align="center">
     <a href="#backlog">Backlog da Sprint</a> | 
-    <a href="#us">User Stories e Critérios de Aceitação</a> | 
-    <a href="#design">Design de Interação</a> | 
+    <a href="#us">User Stories e Critérios de Aceitação</a> |
     <a href="#dados">Modelo de Dados</a> |
     <a href="#entrega">Entrega</a> |
     <a href="#burndown">Burndown</a>
@@ -31,7 +30,39 @@
 
 Critérios de aceitação:
 
-[Em breve]
+- Cenário 1: Há uma ou mais pessoas dentro da red zone
+
+  Dado que:
+  - O usuário é responsável pela vigilância da red zone em questão
+
+  Quando:
+  - O usuário acessa o sistema a fim de visualizar os registros das câmeras de segurança
+
+  Então:
+  - O usuário será capaz de visualizar a quantidade de pessoas em tempo real que está dentro da red zone em questão
+
+- Cenário 2: Ainda não foi registrada a movimentação de pessoas na red zone
+
+  Dado que:
+  - O usuário é responsável pela vigilância da red zone em questão
+  
+  Quando:
+  - O usuário acessa o sistema a fim de visualizar os registros das câmeras de segurança
+  
+  Então:
+  - O usuário visualizará que o campo relacionado à quantidade de pessoas dentro da red zone estará zerado
+
+- Cenário 3: Já foram registradas movimentações em uma ou mais red zones
+
+  Dado que:
+  - O usuário é responsável pela vigilância da área ou da red zone
+
+  Quando:
+  - O usuário acessa o sistema a fim de visualizar os registros das câmeras de segurança
+
+  Então:
+  - O usuário visualizará um painel que centralizará os registros e poderá filtrar esses registros a partir dos elementos desse painel.
+
 
 #### US #2: Como usuário comum desejo que os registros de entrada e de saída de cada red zone sejam reconhecidos e armazenados no sistema de forma automatizada para facilitar o monitoramento desses locais.
 
@@ -48,18 +79,6 @@ Critérios de aceitação:
    <br>
 
 → [Voltar ao topo](#topo)
-
-<span id="design">
-
-  ## 🎨 Design de Interação
-
-<div>
- [Em breve]
-</div>
-
-<br>
-
-→ [Voltar ao topo](#topo)   
 
 <span id="dados">
 
