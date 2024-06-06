@@ -68,13 +68,43 @@ Critérios de aceitação:
 
 Critérios de aceitação:
 
-[Em breve]
+- Cenário 1: As imagens foram geradas em locais com baixa luminosidade
+
+  Dado que:
+  - O usuário é responsável pela vigilância da red zone em questão
+  
+  Quando:
+  - O usuário acessa o sistema a fim de visualizar os registros das câmeras de segurança
+  
+  Então:
+  - O modelo de machine learning será capaz de identificar a movimentação no local e contabilizar a quantidade de pessoas dentro da red zone em tempo real, ainda que as imagens tenham diferentes níveis de luminosidade.
+
+- Cenário 2: As imagens foram capturadas de diferentes distâncias
+  
+  Dado que:
+  - O usuário é responsável pela vigilância da red zone em questão
+  
+  Quando:
+  - O usuário acessa o sistema a fim de visualizar os registros das câmeras de segurança
+  
+  Então:
+  - O modelo de machine learning será capaz de identificar a movimentação no local e contabilizar a quantidade de pessoas dentro da red zone em tempo real, mesmo que as imagens tenham sido capturadas a distâncias distintas da porta de acesso à red zone.
+
 
 #### US #10: Como gerente de área desejo poder filtrar os dados dos relatórios contendo os registros de entrada e de saída de cada red zone para agilizar a consulta aos dados capturados pela inteligência artificial.
 
 Critérios de aceitação:
 
-[Em breve]
+- Cenário 1: O sistema já registrou movimentação em alguma das red zones
+
+  Dado que:
+  - O usuário é responsável pelo gerenciamento da área cuja red zone é pertencente
+  
+  Quando:
+  - O usuário acessa o sistema a fim de visualizar os registros gerados pelas câmeras de segurança
+  
+  Então:
+  - O usuário terá a possibilidade de aplicar filtros aos relatórios e aos gráficos encontrados no dashboard, facilitando a visualização e interpretação dos dados coletados.
   
    <br>
 
