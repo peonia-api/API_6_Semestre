@@ -124,14 +124,129 @@ Critérios de aceitação:
 
  ## 📖 Fonte de Dados
 
-Nesta sprint, foi necessário treinar um modelo de dados para aprimorar o algoritmo de machine learning. Para isso, foram utilizadas algumas bases de dados públicas gratuítas fornecida pelo [RoboFlow](https://universe.roboflow.com/ambient-guide/door-detection-rqbvj) e pela [Kaggle](https://www.kaggle.com/datasets/mayankchandak/voc2012-processed-data-for-yolov5), refinando a identificação de pessoas e de objetos (portas).
+Nesta sprint, foi necessário treinar um modelo de dados para aprimorar o algoritmo de machine learning. Para isso, refinamos os datasets obtidos de bases de dados públicas gratuítas fornecida pelo [RoboFlow](https://universe.roboflow.com/ambient-guide/door-detection-rqbvj) e pela [Kaggle](https://www.kaggle.com/datasets/mayankchandak/voc2012-processed-data-for-yolov5) para identificação de pessoas apenas, no entanto, a acurácia acabou sendo prejudicada. Por esse motivo, optamos por manter a identificação de pessoas e de portas, assim como já vínhamos fazendo, com o intuito de melhorar a qualidade dos resultados obtidos pelo modelo implementado.
 <br>
 <br>
 O treinamento foi feito utilizando a biblioteca [YOLO](https://www.ultralytics.com/pt/yolo), que fornece métodos para, a partir de uma base de dados, treinar um modelo de detecção de objetos e pessoas.
 <br>
 <br>
-Além do treinamento, também produzimos alguns vídeos para exemplificar como a aplicação desenvolvida está se comportando em cenários diferentes dos utilizados nas entregas anteriores. Dessa vez foram usados diferentes ângulos e posicionamentos de câmera, em um ambiente com luminosidade maior. Para acessar os vídeos utilizados para treinar a IA, basta clicar neste [link](https://drive.google.com/drive/folders/1M2-RnIgd5nNf4nRjwQ8mLhvvPamnGo1y?usp=drive_link).
+Além do treinamento, também utilizamos alguns vídeos produzidos pela própria equipe para exemplificar como a aplicação desenvolvida está se comportando em cenários diferentes dos utilizados nas entregas anteriores. Para acessar os vídeos utilizados para treinar a IA, basta clicar neste [link](https://drive.google.com/drive/folders/1M2-RnIgd5nNf4nRjwQ8mLhvvPamnGo1y?usp=drive_link).
+<br>
+<br>
+Nesta sprint foram trabalhados os seguintes cenários:
 
+<details>
+  <summary><b>a) Ambientes com muita iluminação</b></summary>
+<br>
+
+Para este cenário, foram selecionadas imagens de pessoas e de portas em situações com alta luminosidade. Abaixo é possível visualizar algumas das imagens do dataset que correspondiam ao cenário em questão:
+
+<div align="center">
+ <img src="Imagens/claro/val_batch0_pred.jpg">
+ <br>
+ <br>
+ <img src="Imagens/claro/val_batch1_pred.jpg">
+</div>
+
+<br>
+
+A partir dessas imagens, treinamos o modelo e obtivemos os resultados mostrados nos gráficos a seguir:
+
+<br>
+
+![graficos-claro-1](https://github.com/peonia-api/API_6_Semestre/assets/86115352/dd5e3842-1b16-46a5-8e36-4f97eb5e28b0)
+
+
+![graficos-claro-2](https://github.com/peonia-api/API_6_Semestre/assets/86115352/bbfd6174-8b7b-40f8-8cb2-3159f4f19507)
+
+</details>
+
+<details>
+  <summary><b>b) Ambientes com pouca iluminação</b></summary>
+<br>
+
+Para atender este cenário, foram selecionadas imagens de pessoas e de portas em situações com baixa luminosidade. Seguem algumas das imagens do dataset que correspondiam ao cenário em questão:
+
+<div align="center">
+ <img src="Imagens/escuro/val_batch0_pred.jpg">
+ <br>
+ <br>
+ <img src="Imagens/escuro/val_batch1_pred.jpg">
+</div>
+
+<br>
+
+Com essas imagens, treinamos o modelo e obtivemos os resultados mostrados nos gráficos adiante:
+
+![graficos-escuro-1](https://github.com/peonia-api/API_6_Semestre/assets/86115352/e928f74c-e7ad-4b8e-aec6-b6b939126cbd)
+
+
+![graficos-escuro-2](https://github.com/peonia-api/API_6_Semestre/assets/86115352/994767df-c2ee-4229-adb4-ff4249cb6f82)
+
+
+</details>
+
+<details>
+  <summary><b>c) Câmera distante do objeto</b></summary>
+<br>
+
+Para o cenário em questão, foram selecionadas imagens de pessoas e de portas que estivessem mais distantes da câmera. A seguir é possível visualizar algumas das imagens do dataset que correspondiam ao referente cenário:
+
+<div align="center">
+ <img src="Imagens/distante/val_batch0_pred.jpg">
+ <br>
+ <br>
+ <img src="Imagens/distante/val_batch1_pred.jpg">
+</div>
+
+<br>
+
+Depois de treinar o modelo com essas imagens, foram obtidos os resultados mostrados nos gráficos abaixo:
+
+![graficos-distante-1](https://github.com/peonia-api/API_6_Semestre/assets/86115352/22d65f4a-6613-4ce1-bdcb-52f08b825e3c)
+
+
+![graficos-distante-2](https://github.com/peonia-api/API_6_Semestre/assets/86115352/02522854-9c4c-46a9-a8c3-d1c6341656a4)
+
+
+</details>
+
+<details>
+  <summary><b>d) Câmera próxima do objeto</b></summary>
+<br>
+
+Para este cenário, foram selecionadas imagens de pessoas e de portas mais próximas da câmera. Abaixo é possível visualizar algumas das imagens do dataset que correspondiam ao cenário em questão:
+
+<div align="center">
+ <img src="Imagens/proximo/val_batch0_pred.jpg">
+ <br>
+ <br>
+ <img src="Imagens/proximo/val_batch1_labels.jpg">
+</div>
+
+<br>
+
+A partir dessas imagens, treinamos o modelo e obtivemos os resultados mostrados nos gráficos a seguir:
+
+<br>
+
+![graficos-proximo-1](https://github.com/peonia-api/API_6_Semestre/assets/86115352/fdd5e33d-9fcc-4196-acb2-c44ad7def894)
+
+
+![graficos-proximo-2](https://github.com/peonia-api/API_6_Semestre/assets/86115352/a8ed1963-0002-4bb8-aea9-3d28ecbcf0eb)
+
+
+</details>
+
+
+No gráfico abaixo, é possível visualizar melhor a acurácia obtida em cada um dos cenários mencionados:
+<br>
+<br>
+<div align="center">
+ <img src="Imagens/grafico-total.jpeg">
+</div>
+
+<br>
 
 → [Voltar ao topo](#topo) 
 
