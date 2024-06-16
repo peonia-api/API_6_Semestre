@@ -36,7 +36,7 @@ Na tabela abaixo é possível visualizar os resultados de cada Sprint clicando e
 | 01 | 14/04/2024 |	✅ | [Ver relatório](https://github.com/peonia-api/API_6_Semestre/tree/main/Docs/Sprint-01) |
 | 02 | 05/05/2024 |	✅ | [Ver relatório](https://github.com/peonia-api/API_6_Semestre/tree/main/Docs/Sprint-02) |
 | 03 | 26/05/2024 |	✅ | [Ver relatório](https://github.com/peonia-api/API_6_Semestre/tree/main/Docs/Sprint-03) |
-| 04 | 16/06/2024 |	⏳ | [Ver relatório](https://github.com/peonia-api/API_6_Semestre/tree/main/Docs/Sprint-04) |
+| 04 | 16/06/2024 |	✅ | [Ver relatório](https://github.com/peonia-api/API_6_Semestre/tree/main/Docs/Sprint-04) |
 
 
 → [Voltar ao topo](#topo)
@@ -53,6 +53,8 @@ Na tabela abaixo é possível visualizar os resultados de cada Sprint clicando e
 
 <br>
 
+Foram definidos os seguintes requisitos funcionais para o sistema:
+
 - Requisito Funcional #1 (RF1): Desenvolver uma interface web intuitiva para visualização dos registros em forma de relatórios;
 - Requisito Funcional #2 (RF2): Permitir exportação de relatórios contendo os registros do monitoramento realizado;
 - Requisito Funcional #3 (RF3): Implementar modelo de machine learning para automatizar o monitoramento das red zones;
@@ -63,6 +65,12 @@ Na tabela abaixo é possível visualizar os resultados de cada Sprint clicando e
 - Requisito Funcional #8 (RF8): Desenvolver um dashboard com indicadores por períodos;
 - Requisito Funcional #9 (RF9): Permitir que o usuário aplique filtros por períodos para análise dos dados.
 
+Seguem os requisitos não funcionais definidos para este projeto:
+
+- Requisito Não Funcional #1 (RNF1): Manual do usuário;
+- Requisito Não Funcional #2 (RNF2): Documentação do sistema;
+- Requisito Não Funcional #3 (RNF3): Guia de instalação;
+- Requisito Não Funcional #4 (RNF4): Acesso às ferramentas de desenvolvimento.
     
 → [Voltar ao topo](#topo)  
 
