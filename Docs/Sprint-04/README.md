@@ -254,7 +254,11 @@ No gráfico abaixo, é possível visualizar melhor a acurácia obtida em cada um
 
   ## 💻 Entrega
 
-[Em breve]
+
+https://github.com/peonia-api/API_6_Semestre/assets/86115352/5ed17d48-db9f-4ea6-a2b9-f3459972a1f4
+
+
+Para acessar o manual de usuário com as instruções de uso da aplicação, basta clicar [aqui](https://github.com/peonia-api/API_6_Semestre/blob/main/Docs/Manual%20de%20usu%C3%A1rio.pdf).
 
 → [Voltar ao topo](#topo)   
 
@@ -262,8 +266,8 @@ No gráfico abaixo, é possível visualizar melhor a acurácia obtida em cada um
 
 ## 📉 Gráfico de Burndown 
 
-<div>
- [Em breve]
+<div align="center">
+ <img src="Imagens/sprint4-burndown.png">
 </div>
 
 <br>
