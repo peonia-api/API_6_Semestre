@@ -114,8 +114,8 @@ Critérios de aceitação:
 
   ## 📝 Modelo de Dados
 
-<div>
- [Em breve]
+<div align="center">
+ <img src="Imagens/dados.png">
 </div>
 
 <br>
