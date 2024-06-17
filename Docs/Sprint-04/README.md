@@ -116,6 +116,11 @@ Critérios de aceitação:
 
 <div align="center">
  <img src="Imagens/dados.png">
+ <p align="center">Microsserviço de Login</p>
+ <br>
+ <br>
+ <img src="../Sprint-01/Imagens/Diagrama-NoSQL.jpg">
+ <p align="center">Microsserviço de Registros</p>
 </div>
 
 <br>
